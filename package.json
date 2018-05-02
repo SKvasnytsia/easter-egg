@@ -1,0 +1,16 @@
+{
+  "name": "easter_egg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "serve":"browser-sync start -s -f . --no-notify --host $LOCAL_IP --port 9000"
+  },
+  "keywords": [
+    "easter",
+    "egg"
+  ],
+  "author": "Solomiia Kalinchuk",
+  "license": "ISC"
+}

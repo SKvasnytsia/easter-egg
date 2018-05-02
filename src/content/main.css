@@ -1,0 +1,44 @@
+.container {
+    height: 100hv;
+    width: 100%;
+    position: relative;
+}
+.container img.logo {
+    float: right;
+    height: 100vh;
+}
+.easter-egg {
+    position: absolute;
+    width:100%;
+    animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#_1 {
+    max-width: 62%;
+    max-height: 100vh;
+}
+#_2 {
+    max-height: 100vh;
+}
+.show {
+    display: initial;
+}
+.hide {
+    display: none;
+}
+.container h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+	font-size: 4em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 35%;
+
+}
